@@ -1,10 +1,10 @@
 pragma solidity ^0.5.0;
 
-import "./DappToken.sol";
-import "./DaiToken.sol";
+import "./Dapptoken.sol";
+import "./Diatoken.sol";
 
 contract TokenFarm {
-    string public name = "Dapp Token Farm";
+    string public name = "Infinity Coin";
     address public owner;
     DappToken public dappToken;
     DaiToken public daiToken;
